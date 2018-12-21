@@ -1,0 +1,104 @@
+html,body{
+  background-color: #b2b2b2;
+  color: #676a6c;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.box{
+	border:1px solid black;
+}
+
+#sidebar{
+	background-color: #E87E04;
+	padding: 0px;
+}
+
+#sidebar h1{
+	color: #1f3647;
+	text-align: center;
+	margin: 10px 0px;
+	font-size: 25px;
+}
+
+#sidebar ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#sidebar a{
+	padding: 15px 25px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	display: block;
+}
+
+#sidebar a:hover{
+	box-shadow: 1px 0px 0px 0px; 
+	color: white;
+	display: block;
+	background-color: #F65314;
+}
+
+
+.display-table{
+	display: table;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+.display-table-row{
+	display: table-row;
+	height: 100%;
+	
+}
+.display-table-cell{
+	display: table-cell;
+	float: none;
+	height: 100%;
+}
+.valign {
+	vertical-align: top;
+}
+
+#active{
+	background-color: #D35400;
+}
+
+
+#cool{
+	overflow-y: auto;
+	height: 100%;
+	max-height: 400px;
+}
+#head{
+	width: 25%;
+}
+#head1{
+	width: 25%;
+}
+#head2{
+	width: 25%;
+}
+#head3{
+	width: 15%;
+}
+
+
+@media only screen and (min-width: 1920px){
+#cool{
+overflow-y: auto;
+height: 100%;
+max-height: 900px;
+}
+
+
+#head{width: 30%;}
+#head1{width: 30%;}
+#head2{width: 31%;}
+#head3{width: 15%;}
+
+}

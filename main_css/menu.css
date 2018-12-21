@@ -1,0 +1,27 @@
+*{
+   margin: 0px;
+  padding: 0px;
+  }
+  
+  html,body{
+  height: 100%;
+  width: 100%;
+}
+.container-fluid{
+height: 100%;
+}
+
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 100%;}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #B4B7BA;
+      height: 100%;
+      width: 200px;
+    } 
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+    }
